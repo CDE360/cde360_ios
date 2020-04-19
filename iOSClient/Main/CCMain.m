@@ -654,7 +654,7 @@
     self.navigationController.navigationBar.hidden = NO;
     
     // Notification
-    if ([appDelegate.listOfNotifications count] > 0) {
+    if ([appDelegate.listOfNotifications count] < 0) {
         
         buttonNotification = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"notification"] style:UIBarButtonItemStylePlain target:self action:@selector(viewNotification)];
         buttonNotification.tintColor = NCBrandColor.sharedInstance.brandText;

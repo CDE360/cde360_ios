@@ -32,7 +32,7 @@ import UIKit
         return instance
     }()
     
-    @objc public let configuration_bundleId:            String = "it.twsweb.Nextcloud"
+    @objc public let configuration_bundleId:            String = "it.twsweb.CDE360"
     @objc public let configuration_serverUrl:           String = "serverUrl"
     @objc public let configuration_username:            String = "username"
     @objc public let configuration_password:            String = "password"
@@ -47,14 +47,14 @@ import UIKit
         return instance
     }()
     
-    @objc public var brand:                             String = "Nextcloud"
-    @objc public var mailMe:                            String = "ios@nextcloud.com"
-    @objc public var textCopyrightNextcloudiOS:         String = "Nextcloud for iOS %@ © 2020"
-    @objc public var textCopyrightNextcloudServer:      String = "Nextcloud Server %@"
-    @objc public var loginBaseUrl:                      String = "https://cloud.nextcloud.com"
-    @objc public var pushNotificationServerProxy:       String = "https://push-notifications.nextcloud.com"
-    @objc public var linkLoginHost:                     String = "https://nextcloud.com/install"
-    @objc public var linkloginPreferredProviders:       String = "https://nextcloud.com/signup";
+    @objc public var brand:                             String = "CDE360"
+    @objc public var mailMe:                            String = "ios@CDE360.com"
+    @objc public var textCopyrightNextcloudiOS:         String = "CDE360 for iOS %@ © 2020"
+    @objc public var textCopyrightNextcloudServer:      String = "CDE360 Server %@"
+    @objc public var loginBaseUrl:                      String = "https://cloud.CDE360.com"
+    @objc public var pushNotificationServerProxy:       String = "https://push-notifications.CDE360.com"
+    @objc public var linkLoginHost:                     String = "https://CDE360.com/install"
+    @objc public var linkloginPreferredProviders:       String = "https://CDE360.com/signup";
     @objc public var middlewarePingUrl:                 String = ""
     @objc public var webLoginAutenticationProtocol:     String = "nc://"                                            // example "abc://"
     // Personalized
@@ -69,7 +69,7 @@ import UIKit
     @objc public var capabilitiesGroups:                String = "group.cde360"
     
     // User Agent
-    @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
+    @objc public var userAgent:                         String = "CDE360-iOS"                                    // Don't touch me !!
     
     // Options
     @objc public var use_login_web_personalized:        Bool = false                                                // Don't touch me !!

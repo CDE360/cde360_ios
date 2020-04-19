@@ -55,10 +55,12 @@ class NCIntroViewController: UIViewController, UICollectionViewDataSource, UICol
         self.buttonSignUp.setTitleColor(.white, for: .normal)
         self.buttonSignUp.backgroundColor = UIColor(red: 25.0 / 255.0, green: 89.0 / 255.0, blue: 141.0 / 255.0, alpha: 1)
         self.buttonSignUp.setTitle(NSLocalizedString("_sign_up_", comment: ""), for: .normal)
+        self.buttonSignUp.isHidden = true
 
         self.buttonHost.layer.cornerRadius = 20
         self.buttonHost.setTitle(NSLocalizedString("_host_your_own_server", comment: ""), for: .normal)
         self.buttonHost.setTitleColor(UIColor(red: 1, green: 1, blue: 1, alpha: 0.7), for: .normal)
+        self.buttonHost.isHidden = true
 
         self.introCollectionView.register(UINib(nibName: "NCIntroCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "introCell")
         self.introCollectionView.dataSource = self
